@@ -38,6 +38,9 @@ int main() {
 		// cin >> movies[i].second >> movies[i].first;
 	}
 
+	// time : O(nlogn + n) ~ O(nlogn)
+	// space: logn due to sort()
+
 	sort(movies.begin(), movies.end());
 
 	int maxMovies  = 0; // tracks then maximum no. of movies that can be watched
